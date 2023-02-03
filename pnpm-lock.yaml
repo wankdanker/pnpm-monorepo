@@ -8,13 +8,19 @@ importers:
     devDependencies:
       '@changesets/cli': 2.26.0
 
+  packages/package1:
+    specifiers: {}
+
+  packages/package2:
+    specifiers: {}
+
   packages/package3:
     specifiers:
-      package1: workspace:^1.0.1
-      package2: workspace:^1.0.1
+      '@wankdanker/package1': workspace:^1.0.1
+      '@wankdanker/package2': workspace:^1.0.1
     dependencies:
-      package1: link:../package1
-      package2: link:../package2
+      '@wankdanker/package1': link:../package1
+      '@wankdanker/package2': link:../package2
 
 packages:
 

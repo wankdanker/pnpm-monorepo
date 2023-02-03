@@ -1,5 +1,5 @@
 {
-  "name": "package3",
+  "name": "@wankdanker/package3",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "package1": "workspace:^1.0.1",
-    "package2": "workspace:^1.0.1"
+    "@wankdanker/package1": "workspace:^1.0.1",
+    "@wankdanker/package2": "workspace:^1.0.1"
   }
 }

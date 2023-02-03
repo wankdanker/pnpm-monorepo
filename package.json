@@ -8,7 +8,8 @@
     "changeset:init": "changeset init",
     "changeset": "changeset",
     "changeset:version": "changeset version",
-    "version": "changeset version"
+    "changeset:status": "changeset status --verbose",
+    "changeset:publish": "changeset publish"
   },
   "keywords": [],
   "author": "",
