@@ -16,8 +16,8 @@ importers:
 
   packages/package3:
     specifiers:
-      '@wankdanker/package1': workspace:^1.0.1
-      '@wankdanker/package2': workspace:^1.0.1
+      '@wankdanker/package1': workspace:^1.0.3
+      '@wankdanker/package2': workspace:^1.0.3
     dependencies:
       '@wankdanker/package1': link:../package1
       '@wankdanker/package2': link:../package2
