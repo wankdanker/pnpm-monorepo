@@ -8,6 +8,14 @@ importers:
     devDependencies:
       '@changesets/cli': 2.26.0
 
+  packages/package3:
+    specifiers:
+      package1: workspace:^1.0.1
+      package2: workspace:^1.0.1
+    dependencies:
+      package1: link:../package1
+      package2: link:../package2
+
 packages:
 
   /@babel/code-frame/7.18.6:

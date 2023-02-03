@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "package1": "workspace:^1.0.1",
+    "package2": "workspace:^1.0.1"
+  }
 }
