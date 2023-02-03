@@ -1,5 +1,12 @@
 # package3
 
+## 1.0.5
+
+### Patch Changes
+
+- e9d4c8a: testing
+- ed80971: sdf
+
 ## 1.0.4
 
 ### Patch Changes
