@@ -1,5 +1,14 @@
 # package3
 
+## 1.0.4
+
+### Patch Changes
+
+- ee0ac93: Updated repositories for packages.
+- Updated dependencies [ee0ac93]
+  - @wankdanker/package1@1.0.3
+  - @wankdanker/package2@1.0.3
+
 ## 1.0.3
 
 ### Patch Changes

@@ -1,6 +1,6 @@
 {
   "name": "@wankdanker/package3",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@wankdanker/package1": "workspace:^1.0.2",
-    "@wankdanker/package2": "workspace:^1.0.2"
+    "@wankdanker/package1": "workspace:^1.0.3",
+    "@wankdanker/package2": "workspace:^1.0.3"
   },
-  "repository":"https://github.com/wankdanker/pnpm-monorepo"
+  "repository": "https://github.com/wankdanker/pnpm-monorepo"
 }
