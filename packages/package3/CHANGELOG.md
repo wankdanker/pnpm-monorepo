@@ -1,5 +1,11 @@
 # package3
 
+## 1.0.6
+
+### Patch Changes
+
+- 6ecc31e: build script
+
 ## 1.0.5
 
 ### Patch Changes
