@@ -1,5 +1,11 @@
 # package3
 
+## 1.0.7
+
+### Patch Changes
+
+- b40a643: add test.js
+
 ## 1.0.6
 
 ### Patch Changes
