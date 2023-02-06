@@ -9,13 +9,13 @@
     "build": "turbo run build",
     "lint": "turbo run lint",
     "test": "turbo run test",
-    "changeset:init": "changeset init",
+    "changeset:init": "is-ci || changeset init",
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:status": "changeset status --verbose",
     "changeset:publish": "pnpm build && changeset publish",
     "huksy": "husky",
-    "husky:prepare": "husky install",
+    "husky:prepare": "is-ci || husky install",
     "husky:add": "husky add",
     "prepare": "pnpm husky:prepare && pnpm changeset:init",
     "turbo": "turbo"
@@ -26,6 +26,7 @@
   "devDependencies": {
     "@changesets/cli": "^2.26.0",
     "husky": "^8.0.3",
+    "is-ci": "^3.0.1",
     "turbo": "^1.7.3"
   },
   "publishConfig": {
