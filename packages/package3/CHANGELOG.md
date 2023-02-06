@@ -1,5 +1,11 @@
 # package3
 
+## 1.0.10
+
+### Patch Changes
+
+- bf8aaa0: Nothing happened, testing
+
 ## 1.0.9
 
 ### Patch Changes
