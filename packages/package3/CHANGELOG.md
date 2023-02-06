@@ -1,5 +1,13 @@
 # package3
 
+## 1.0.11
+
+### Patch Changes
+
+- 5be50f0: Added readme
+- Updated dependencies [d08f878]
+  - @wankdanker/package2@1.0.4
+
 ## 1.0.10
 
 ### Patch Changes
