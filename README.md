@@ -8,3 +8,9 @@ This is a test monorepo with the following intentions:
 - [ ] linting by...
 - [ ] tasks by `turborepo`?
 - [ ] support packages written in `ts` and `js`
+
+
+### inspirations
+
+- https://www.youtube.com/watch?v=eh89VE3Mk5g 
+- https://github.com/mattpocock/pkg-demo
