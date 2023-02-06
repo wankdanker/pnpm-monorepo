@@ -14,3 +14,4 @@ This is a test monorepo with the following intentions:
 
 - https://www.youtube.com/watch?v=eh89VE3Mk5g 
 - https://github.com/mattpocock/pkg-demo
+- https://github.com/changesets/action
