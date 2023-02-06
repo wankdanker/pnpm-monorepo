@@ -15,5 +15,6 @@
     "@wankdanker/package1": "workspace:^2.0.0",
     "@wankdanker/package2": "workspace:^1.0.3",
     "@wankdanker/package3": "workspace:^1.0.10"
-  }
+  },
+  "repository": "https://github.com/wankdanker/pnpm-monorepo"
 }
