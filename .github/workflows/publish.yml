@@ -24,7 +24,7 @@ jobs:
         run: |
           cat << EOF > "$HOME/.npmrc"
           //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
-          @wankdanker:registry=https://npm.pkg.github.com/
+          @$GITHUB_ACTOR:registry=https://npm.pkg.github.com/
           EOF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
