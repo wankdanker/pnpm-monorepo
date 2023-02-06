@@ -23,10 +23,11 @@ jobs:
       - name: Creating .npmrc
         run: |
           cat << EOF > "$HOME/.npmrc"
-            @wankdanker:registry=https://npm.pkg.github.com/:_authToken=$NPM_TOKEN
+          //npm.pkg.github.com/:_authToken=$GITHUB_TOKEN
+          @wankdanker:registry=https://npm.pkg.github.com/
           EOF
         env:
-          NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Create Release Pull Request or Publish
         id: changesets
         uses: changesets/action@v1
