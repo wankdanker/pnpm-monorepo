@@ -1,13 +1,13 @@
 This is a test monorepo with the following intentions:
 
-- [ ] monorepo workspace managed by `pnpm`
-- [ ] versioning by `changesets`
-  - [ ] including version bump PRs by GitHub actions
-  - [ ] including publishing to GitHub npm registry by GitHub actions
-- [ ] git hooks by `husky`
-- [ ] linting by...
-- [ ] tasks by `turborepo`?
-- [ ] support packages written in `ts` and `js`
+- [x] monorepo workspace managed by `pnpm`
+- [x] versioning by `changesets`
+  - [x] including version bump PRs by GitHub actions
+  - [x] including publishing to GitHub npm registry by GitHub actions
+- [x] git hooks by `husky`
+- [x] linting by...
+- [x] tasks by `turborepo`?
+- [x] support packages written in `ts` and `js`
 
 
 ### inspirations
