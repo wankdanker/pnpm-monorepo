@@ -1,5 +1,11 @@
 # package1
 
+## 2.0.0
+
+### Major Changes
+
+- a3074da: Testing a major bump and push
+
 ## 1.0.3
 
 ### Patch Changes
