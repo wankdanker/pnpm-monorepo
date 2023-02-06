@@ -1,5 +1,13 @@
 # package3
 
+## 1.0.8
+
+### Patch Changes
+
+- 2869f60: Nothing happened
+- Updated dependencies [a3074da]
+  - @wankdanker/package1@2.0.0
+
 ## 1.0.7
 
 ### Patch Changes
