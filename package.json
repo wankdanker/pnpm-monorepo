@@ -7,19 +7,24 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "exit 0",
-    "test": "exit 0",
+    "build": "turbo run build",
+    "test": "turbo run test",
     "changeset:init": "changeset init",
     "changeset": "changeset",
     "changeset:version": "changeset version",
     "changeset:status": "changeset status --verbose",
-    "changeset:publish": "pnpm build && changeset publish"
+    "changeset:publish": "pnpm build && changeset publish",
+    "huksy": "husky",
+    "husky:prepare": "husky install",
+    "husky:add": "husky add"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@changesets/cli": "^2.26.0"
+    "@changesets/cli": "^2.26.0",
+    "husky": "^8.0.3",
+    "turbo": "^1.7.3"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
