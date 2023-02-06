@@ -1,5 +1,11 @@
 # package3
 
+## 1.0.9
+
+### Patch Changes
+
+- b938c82: Nothing happened
+
 ## 1.0.8
 
 ### Patch Changes
