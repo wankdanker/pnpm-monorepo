@@ -8,6 +8,7 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "lint": "turbo run lint",
     "test": "turbo run test",
     "changeset:init": "changeset init",
     "changeset": "changeset",
@@ -17,7 +18,8 @@
     "huksy": "husky",
     "husky:prepare": "husky install",
     "husky:add": "husky add",
-    "prepare": "pnpm husky:prepare && pnpm changeset:init"
+    "prepare": "pnpm husky:prepare && pnpm changeset:init",
+    "turbo": "turbo"
   },
   "keywords": [],
   "author": "",
