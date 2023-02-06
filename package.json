@@ -16,7 +16,8 @@
     "changeset:publish": "pnpm build && changeset publish",
     "huksy": "husky",
     "husky:prepare": "husky install",
-    "husky:add": "husky add"
+    "husky:add": "husky add",
+    "prepare": "pnpm husky:prepare"
   },
   "keywords": [],
   "author": "",
