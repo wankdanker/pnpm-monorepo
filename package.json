@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
   "scripts": {
     "build": "exit 0",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "exit 0",
     "changeset:init": "changeset init",
     "changeset": "changeset",
     "changeset:version": "changeset version",
