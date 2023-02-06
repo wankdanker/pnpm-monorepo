@@ -17,7 +17,7 @@
     "huksy": "husky",
     "husky:prepare": "husky install",
     "husky:add": "husky add",
-    "prepare": "pnpm husky:prepare"
+    "prepare": "pnpm husky:prepare && pnpm changeset:init"
   },
   "keywords": [],
   "author": "",
