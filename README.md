@@ -2,11 +2,11 @@
 
 This is a sample monorepo with the following tools:
 
-- pnpm: package and workspace management
-- changesets: manage package versions
-- turbo: run tasks quickly
-- husky: run tests, linting and things on git hooks
-- vite: project creation
+- [pnpm][1]: package and workspace management
+- [changesets][2]: manage package versions
+- [turbo][3]: run tasks quickly
+- [husky][4]: run tests, linting and things on git hooks
+- [vite][5]: project creation
 
 # scripts
 
@@ -161,3 +161,9 @@ pnpm test
 pnpm lint
 EOF
 ```
+
+- [1]: https://pnpm.io/
+- [2]: https://github.com/changesets/changesets
+- [3]: https://turbo.build/
+- [4]: https://typicode.github.io/husky/#/
+- [5]: https://vitejs.dev/
