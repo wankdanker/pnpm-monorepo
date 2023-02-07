@@ -52,6 +52,8 @@ pnpm pkg set scripts.prepare="pnpm husky:init && pnpm changeset:init"
 pnpm pkg set scripts.turbo="turbo"
 pnpm pkg set scripts.vite:create="cd packages && pnpm create vite"
 
+pnpm install
+
 cat << EOF > pnpm-workspace.yaml
 packages:
   - "packages/*"
@@ -151,5 +153,11 @@ jobs:
           GITHUB_TOKEN: \${{ secrets.GITHUB_TOKEN }}
 EOF
 
-pnpm install
+cat << EOF >> .husky/pre-commit
+#!/usr/bin/env sh
+. "\$(dirname -- "$0")/_/husky.sh"
+
+pnpm test
+pnpm lint
+EOF
 ```
