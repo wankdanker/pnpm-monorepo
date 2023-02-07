@@ -162,8 +162,8 @@ pnpm lint
 EOF
 ```
 
-- [1]: https://pnpm.io/
-- [2]: https://github.com/changesets/changesets
-- [3]: https://turbo.build/
-- [4]: https://typicode.github.io/husky/#/
-- [5]: https://vitejs.dev/
+[1]: https://pnpm.io/
+[2]: https://github.com/changesets/changesets
+[3]: https://turbo.build/
+[4]: https://typicode.github.io/husky/#/
+[5]: https://vitejs.dev/
